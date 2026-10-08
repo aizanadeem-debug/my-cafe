@@ -225,3 +225,34 @@ nav{
     color: #777;
     letter-spacing: 1px;
 }
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+body{
+    overflow-x: hidden;
+}
+@media (max-width: 768px) {
+
+    #box1, #box2, #box3, #box4, #box5, #box6 {
+        width: 42%;
+        height: 300px;
+        margin: 20px 3%;
+        padding: 0;
+        float: left;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    #box1 img, #box2 img, #box3 img,
+    #box4 img, #box5 img, #box6 img {
+        max-width: 100%;
+        height: auto;
+    }
+}
