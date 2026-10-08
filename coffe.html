@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffe</title>
+</head>
+<style>
+body{ background:#FFF6E8; }
+
+h1{ 
+  text-align:center; color:#4B1E0F; 
+  font-size:36px; letter-spacing:1px;
+}
+
+h2{ text-align:center; }
+
+.coffee-box{
+  background:#fff; border-left:6px solid #C19A6B;
+  transition:0.3s;
+}
+.coffee-box:hover{
+  transform: scale(1.02);
+  box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.coffee-details button{
+  background:#C19A6B; color:white; font-weight:bold;
+}
+.coffee-details button:hover{
+  background:#4B1E0F;
+}
+.coffee-box{
+ display:flex; gap:15px; background:white;
+ border-radius:12px; padding:12px;
+ margin:12px auto; max-width:550px;
+ box-shadow:0 2px 6px #ddd;
+}
+.coffee-box img{ width:120px; height:120px; border-radius:10px; }
+.coffee-details button{ background:#3f190d; color:white; border:none; padding:6px 14px; border-radius:15px; }
+.title-box{
+background: #3f190d;
+color: #FFF6E8;
+padding: 10px 25px;
+border-radius: 30px;
+}
+.small-box{
+    background: #E8D5B5;
+    color: #481E0F;
+    padding: 6px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.home-btn{
+    background: #512415;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight:bold ;
+}
+.home-btn:hover{
+    background: #C19A6B;
+}
+    </style>
+
+<body>
+    <br>
+<a href="home.html" class="home-btn">Home</a>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Coffee Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1><span class="title-box">'Coffee Menu'</h1>
+    <hr>
+    <br>
+<marquee style="background:#4B1E0F; color:whitesmoke; padding:20px; border-radius:25px;
+ font-size:25px; font: weight 20%;">Welcome to our coffe menu - Freshly Brewed Happiness in Every Sip more than coffe its a feeling ☕</marquee>
+<h2><span class="small-box">HOT COFFEE:</span></h2>
+
+<div class="coffee-box">
+    <img src="cappuccino.jpg" alt="Cappuccino">
+    <div class="coffee-details">
+        <h2 style="color: #5C2E0E;">Cappuccino</h2>
+        <p>Rich espresso with steamed milk and thick foam.</p>
+        <h3>Rs. 550</h3>
+        <button>Order Now</button>
+    </div>
+</div>
+
+<div class="coffee-box">
+    <img src="caramellatte.jpg" alt="Latte">
+    <div class="coffee-details">
+        <h2 style="color:#5C2E0E;">Caramel Latte</h2>
+        <p>Smooth latte with sweet caramel flavor.</p>
+        <h3>Rs. 650</h3>
+        <button>Order Now</button>
+    </div>
+</div>
+<div class="coffee-box">
+    <img src="regular.jpg" alt="Iced Latte">
+    <div class="coffee-details">
+        <h2 style="color: #5C2E0E;">Regular Coffe</h2>
+        <p>regular coffe best for quick pickers, it goes with every meal.</p>
+        <h3>Rs. 150</h3>
+        <button>Order Now</button>
+    </div>
+</div>
+
+<h2><span class="small-box">COLD COFFEE:</span></h2>
+
+<div class="coffee-box">
+    <img src="iced.jpg" alt="Iced Latte">
+    <div class="coffee-details">
+        <h2 style="color: #5C2E0E;">Iced Latte</h2>
+        <p>Chilled espresso with cold milk and ice.</p>
+        <h3>Rs. 600</h3>
+        <button>Order Now</button>
+    </div>
+</div>
+<div class="coffee-box">
+    <img src="brew.jpg" alt="Iced Latte">
+    <div class="coffee-details">
+        <h2 style="color: #5C2E0E;">Iced brew</h2>
+        <p>Chilled brew coffe with ice and different flavours.</p>
+        <h3>Rs. 450</h3>
+        <button>Order Now</button>
+    </div>
+</div>
+
+
+
+</body>
+</html>
