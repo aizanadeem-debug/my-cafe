@@ -239,6 +239,15 @@ body{
     overflow-x: hidden;
 }
 @media (max-width: 768px) {
+    nav{
+        padding: 10px;
+    }
+    .nav-links{
+        gap: 5px;
+    }
+    .nav-links a{
+        font-size: 18px;
+    }
 
     #box1, #box2, #box3, #box4, #box5, #box6 {
         width: 42%;
